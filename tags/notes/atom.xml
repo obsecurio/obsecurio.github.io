@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>obsecur - Notes</title>
+    <link rel="self" type="application/atom+xml" href="https://blog.obsecur.io/tags/notes/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.obsecur.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-12T00:00:00+00:00</updated>
+    <id>https://blog.obsecur.io/tags/notes/atom.xml</id>
+    <entry xml:lang="en">
+        <title>General ARM Notes</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Obsecur
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.obsecur.io/notes/arm-general/"/>
+        <id>https://blog.obsecur.io/notes/arm-general/</id>
+        
+        <content type="html" xml:base="https://blog.obsecur.io/notes/arm-general/">&lt;h1 id=&quot;architecture&quot;&gt;Architecture&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
+</feed>

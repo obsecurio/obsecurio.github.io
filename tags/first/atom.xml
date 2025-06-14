@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>obsecur - first</title>
+    <link rel="self" type="application/atom+xml" href="https://blog.obsecur.io/tags/first/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.obsecur.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-12T00:00:00+00:00</updated>
+    <id>https://blog.obsecur.io/tags/first/atom.xml</id>
+    <entry xml:lang="en">
+        <title>First Post!</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Obsecur
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.obsecur.io/blog/first/"/>
+        <id>https://blog.obsecur.io/blog/first/</id>
+        
+        <content type="html" xml:base="https://blog.obsecur.io/blog/first/">&lt;h1 id=&quot;first-blog-post&quot;&gt;First blog post!&lt;&#x2F;h1&gt;
+&lt;p&gt;First post for learning how to use the theme and Zola!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; data-name=&quot;wow.rs&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot; data-name=&quot;wow.rs&quot;&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; wow_code = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;wow!&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+</feed>
