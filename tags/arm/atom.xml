@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>obsecur - ARM</title>
+    <link rel="self" type="application/atom+xml" href="https://blog.obsecur.io/tags/arm/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.obsecur.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-12T00:00:00+00:00</updated>
+    <id>https://blog.obsecur.io/tags/arm/atom.xml</id>
+    <entry xml:lang="en">
+        <title>General ARM Notes</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Obsecur
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.obsecur.io/notes/arm-general/"/>
+        <id>https://blog.obsecur.io/notes/arm-general/</id>
+        
+        <content type="html" xml:base="https://blog.obsecur.io/notes/arm-general/">&lt;h1 id=&quot;arm-versions&quot;&gt;ARM Versions&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ARMv1&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv2&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv3&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv4&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv5&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv6&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv7&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv8&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv9&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
