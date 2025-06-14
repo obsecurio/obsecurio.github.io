@@ -8,5 +8,14 @@ updated = "2025-06-12"
 tags = ["ARM", "Notes"]
 +++
 
-# Architecture
+# ARM Versions
 
+- ARMv1
+- ARMv2
+- ARMv3
+- ARMv4
+- ARMv5
+- ARMv6
+- ARMv7
+- ARMv8
+- ARMv9
