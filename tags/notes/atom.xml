@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>obsecur - Notes</title>
+    <link rel="self" type="application/atom+xml" href="https://blog.obsecur.io/tags/notes/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.obsecur.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-12T00:00:00+00:00</updated>
+    <id>https://blog.obsecur.io/tags/notes/atom.xml</id>
+    <entry xml:lang="en">
+        <title>General ARM Notes</title>
+        <published>2025-06-12T00:00:00+00:00</published>
+        <updated>2025-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Obsecur
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.obsecur.io/notes/arm-general/"/>
+        <id>https://blog.obsecur.io/notes/arm-general/</id>
+        
+        <content type="html" xml:base="https://blog.obsecur.io/notes/arm-general/">&lt;h1 id=&quot;arm-versions&quot;&gt;ARM Versions&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ARMv1&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv2&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv3&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv4&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv5&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv6&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv7&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv8&lt;&#x2F;li&gt;
+&lt;li&gt;ARMv9&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;boot-sequence&quot;&gt;Boot Sequence&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;booting-a-bare-metal-system&quot;&gt;Booting a bare-metal system&lt;&#x2F;h2&gt;
+&lt;p&gt;When the core has been reset, it will commence execution at the location of the reset vector in
+the exception vector table (at either address 0x00000000 or 0xFFFF0000)&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In a multi-core system, enable non-primary cores to sleep&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Initialize exception vectors.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Initialize the memory system, including the MMU.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Initialize core mode stacks and registers.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Initialize any critical I&#x2F;O devices.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Perform any necessary initialization of NEON or VFP.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Enable interrupts.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Change core mode or state.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Handle any set-up required for the Secure world.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Call the main() application.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
